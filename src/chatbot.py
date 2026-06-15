@@ -25,7 +25,7 @@ class LemoneChatbot:
         messages = [{"role": "system", "content": system}]
         messages += self.history
         messages.append({"role": "user", "content": user_message})
-        response = client.chat.completions.create(model="llama3-8b-8192", messages=messages, temperature=0.3)
+        response = client.chat.completions.create(model="llama-3.1-8b-instant", messages=messages, temperature=0.3)
         answer = response.choices[0].message.content
         self.history.append({"role": "user", "content": user_message})
         self.history.append({"role": "assistant", "content": answer})
