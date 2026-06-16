@@ -1,4 +1,6 @@
-# 👗 Lemone AI Chatbot — Customer Service Berbasis RAG
+# 👗 Lemone AI Chatbot
+
+🔗 **Live Demo:** [https://lemone-ai-chatbot.streamlit.app](https://lemone-ai-chatbot.streamlit.app) — Customer Service Berbasis RAG
 
 > **Portfolio Project** — AI Engineer Application  
 > Demonstrasi implementasi RAG (Retrieval-Augmented Generation) untuk
